@@ -19,7 +19,7 @@ export default function Home() {
         title="Inline Frame Example"
         width="800"
         height="600"
-        src="https://certif.upago.cl/nido-de-aguilas-br/registro-pago-automatico?ar=MzAz"></iframe>
+        src="http://localhost:8080/upago_pay/pumma/registro-pago-automatico?ar=MzEwMA=="></iframe>
       </main>
 
       <Footer />
