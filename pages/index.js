@@ -15,6 +15,11 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <iframe   id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="800"
+        height="600"
+        src="http://localhost:8080/upago_pay/pumma/registro-pago-automatico?ar=MzA5OQ=="></iframe>
       </main>
 
       <Footer />
