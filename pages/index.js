@@ -19,7 +19,7 @@ export default function Home() {
         title="Inline Frame Example"
         width="800"
         height="600"
-        src="http://localhost:8080/upago_pay/pumma/registro-pago-automatico?ar=MzEwMA=="></iframe>
+        src="https://certif.upago.cl/uai/registro-pago-automatico?ar=MzE4"></iframe>
       </main>
 
       <Footer />
