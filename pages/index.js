@@ -3,6 +3,8 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
+  url= "https://certif.upago.cl/uai/registro-pago-automatico?ar=MzE4"
+
   return (
     <div className="container">
       <Head>
@@ -15,11 +17,12 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <input value={url}></input>
         <iframe   id="inlineFrameExample"
         title="Inline Frame Example"
         width="800"
         height="600"
-        src="https://certif.upago.cl/uai/registro-pago-automatico?ar=MzE4"></iframe>
+        src={url}></iframe>
       </main>
 
       <Footer />
